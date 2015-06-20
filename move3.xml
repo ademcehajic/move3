@@ -22,20 +22,77 @@
               </block>
             </value>
             <next>
-              <block type="led_select" id="409" inline="true">
+              <block type="led_select" id="455" inline="true">
                 <field name="ACTION">FLASH</field>
                 <value name="LED">
-                  <block type="math_number" id="437">
-                    <field name="NUM">5</field>
+                  <block type="math_number" id="456">
+                    <field name="NUM">2</field>
                   </block>
                 </value>
                 <next>
-                  <block type="robot_delay" id="392" inline="true">
+                  <block type="robot_delay" id="463" inline="true">
                     <value name="DELAY">
-                      <block type="math_number" id="439">
+                      <block type="math_number" id="464">
                         <field name="NUM">200</field>
                       </block>
                     </value>
+                    <next>
+                      <block type="led_select" id="457" inline="true">
+                        <field name="ACTION">FLASH</field>
+                        <value name="LED">
+                          <block type="math_number" id="458">
+                            <field name="NUM">3</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="robot_delay" id="467" inline="true">
+                            <value name="DELAY">
+                              <block type="math_number" id="468">
+                                <field name="NUM">200</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="led_select" id="459" inline="true">
+                                <field name="ACTION">FLASH</field>
+                                <value name="LED">
+                                  <block type="math_number" id="460">
+                                    <field name="NUM">4</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="robot_delay" id="465" inline="true">
+                                    <value name="DELAY">
+                                      <block type="math_number" id="466">
+                                        <field name="NUM">200</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="led_select" id="409" inline="true">
+                                        <field name="ACTION">FLASH</field>
+                                        <value name="LED">
+                                          <block type="math_number" id="437">
+                                            <field name="NUM">5</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="robot_delay" id="392" inline="true">
+                                            <value name="DELAY">
+                                              <block type="math_number" id="439">
+                                                <field name="NUM">200</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
                   </block>
                 </next>
               </block>
