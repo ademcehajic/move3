@@ -15,20 +15,29 @@
           </block>
         </value>
         <next>
-          <block type="led_select" id="409" inline="true">
-            <field name="ACTION">FLASH</field>
-            <value name="LED">
-              <block type="math_number" id="437">
-                <field name="NUM">5</field>
+          <block type="robot_delay" id="453" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="454">
+                <field name="NUM">200</field>
               </block>
             </value>
             <next>
-              <block type="robot_delay" id="392" inline="true">
-                <value name="DELAY">
-                  <block type="math_number" id="439">
-                    <field name="NUM">200</field>
+              <block type="led_select" id="409" inline="true">
+                <field name="ACTION">FLASH</field>
+                <value name="LED">
+                  <block type="math_number" id="437">
+                    <field name="NUM">5</field>
                   </block>
                 </value>
+                <next>
+                  <block type="robot_delay" id="392" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="439">
+                        <field name="NUM">200</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
               </block>
             </next>
           </block>
