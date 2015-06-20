@@ -4,7 +4,7 @@
       <block type="robot_delay" id="218" inline="true">
         <value name="DELAY">
           <block type="math_number" id="219">
-            <field name="NUM">2000</field>
+            <field name="NUM">4000</field>
           </block>
         </value>
         <next>
@@ -22,7 +22,7 @@
                       <block type="robot_delay" id="210" inline="true">
                         <value name="DELAY">
                           <block type="math_number" id="217">
-                            <field name="NUM">2000</field>
+                            <field name="NUM">5000</field>
                           </block>
                         </value>
                         <next>
